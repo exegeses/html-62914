@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap');
+
+body{
+    background-color: rgb(29, 105, 88);
+    color: rgb(177, 250, 234);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1{
+    color: white;
+}
+
+i{
+    color: #ff0;
+}
+b{
+    color: #f60;
+}
