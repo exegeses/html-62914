@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body{
+    background-color: rgb(182, 249, 195);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* hero banner */
+#hero{
+    height: 500px;
+    background-image: url(../imgs/soccer-ball.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 60px;
+    color: white;
+    /* centrar texto */
+    text-align: center;
+}
+
+#naranja{
+    background-color: #fba86d;
+    height: 120px;
+    width: 200px;
+}
+#verde{
+    background-color: #07b40d;
+    height: 120px;
+    width: 200px;
+}
+#celeste{
+    background-color: #6df9fb;
+    height: 120px;
+    width: 200px;
+}
