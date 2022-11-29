@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#verde{
+    width: 200px;
+    height: 100px;
+
+    padding: 32px;
+
+    background-color: rgb(127, 255, 200);
+}
+#naranja{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 210, 127);
+}
+
+ul{
+    margin-left: 50px;
+}
