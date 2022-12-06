@@ -11,7 +11,7 @@ body{
     color: #3c3c3c;
 }
 
-/* header */
+/*### header ###*/
 header{
     height: 100px;
     width: 1100px;
@@ -35,3 +35,61 @@ header{
     header nav a{
         margin-right: 20px;
     }
+
+/*### hero-banner ###*/
+#hero-banner{
+    height: 500px;
+
+    background-image: url(../imgs/hero-banner-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; /* x  y */
+
+    display: flex;
+    align-items: center; /* centrar convenido en vertical */
+}
+
+    #hero-banner h1{
+        margin-left: 100px;
+        font-size: 32px;
+        color: white;
+    }
+
+/*### Promos ###*/
+#promos{
+    width: 1100px;
+    height: 500px;
+    margin: 62px auto 0px auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #F9F2EC;
+}
+
+    #promos article{
+        width: 285px;
+        height: 350px;
+        background-color: rgb(255, 255, 255);
+    }
+    #promos article h2{
+        font-size: 16px;
+        margin: 16px 0px 12px 16px;
+    }
+    #promos article p{
+        margin-left: 16px;
+    }
+
+/*### Destinos ###*/
+#destinos{
+    width: 1100px;
+    margin: 62px auto 0px auto;
+}
+    #destinos article{
+        display: flex;
+        margin-bottom: 32px;
+    }
+        #destinos article div{
+            width: 550px;
+        }
