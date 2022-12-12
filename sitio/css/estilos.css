@@ -119,4 +119,38 @@ header{
             color: #fff;
         }
 
-    
+/*### serviocios  ###*/        
+#servicios{
+    width: 762px;
+    margin: 62px auto 0px auto;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}    
+
+    #servicios h2{
+        font-size: 32px;
+        width: 100%;
+        text-align: center;
+    }
+    #servicios a{
+        display: block;
+        width: 160px;
+        margin: 46px;
+        padding-top: 12px;
+        text-align: center;
+        border: 1px solid #3c3c3c;
+        border-radius: 16px;
+        text-decoration: none;
+        color: #3c3c3c;
+        transition: 500ms;
+    }
+    #servicios a:hover{
+        background-color: #3c3c3c;
+        color: #fff;
+    }
+
+    .material-symbols-outlined{
+        display: block;
+        font-size: 66px;
+    }
